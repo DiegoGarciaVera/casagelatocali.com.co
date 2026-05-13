@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es">
+<head>
+<meta charset="utf-8"/>//f
+<meta content="width=device-width, initial-scale=2.0" name="viewport"/>
+<title>Casa Gelato Cali | Maquila y Marca Blanca de Paletas Artesanales</title>
+<link href="https:onts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "secondary-container": "#fdd4c8",
+            "primary-fixed": "#97f1f4",
+            "tertiary-fixed-dim": "#ffba48",
+            "outline": "#6e7979",
+            "on-secondary": "#ffffff",
+            "secondary-fixed-dim": "#e5beb2",
+            "outline-variant": "#bdc9c9",
+            "inverse-primary": "#7bd5d8",
+            "surface-container-high": "#e5e9e8",
+            "primary-container": "#087c7f",
+            "surface-container-lowest": "#ffffff",
+            "inverse-surface": "#2d3131",
+            "on-tertiary-container": "#fff3e6",
+            "on-tertiary-fixed-variant": "#614000",
+            "surface-container": "#ebefee",
+            "background": "#f6faf9",
+            "on-surface-variant": "#3e4949",
+            "surface-bright": "#f6faf9",
+            "on-error": "#ffffff",
+            "surface-dim": "#d7dbda",
+            "on-secondary-fixed-variant": "#5c4038",
+            "primary-fixed-dim": "#7bd5d8",
+            "on-tertiary-fixed": "#291800",
+            "error-container": "#ffdad6",
+            "tertiary-fixed": "#ffddb1",
+            "surface-tint": "#00696c",
+            "on-background": "#181c1c",
+            "secondary-fixed": "#ffdbd0",
+            "surface-container-low": "#f1f4f4",
+            "tertiary-container": "#976600",
+            "secondary": "#76574e",
+            "inverse-on-surface": "#eef1f1",
+            "error": "#ba1a1a",
+            "on-primary-fixed": "#002021",
+            "primary": "#006164",
+            "on-secondary-container": "#795a50",
+            "surface": "#f6faf9",
+            "on-tertiary": "#ffffff",
+            "on-error-container": "#93000a",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed": "#2b160f",
+            "on-primary-fixed-variant": "#004f51",
+            "on-surface": "#181c1c",
+            "on-primary-container": "#cafeff",
+            "surface-container-highest": "#dfe3e3",
+            "surface-variant": "#dfe3e3",
+            "tertiary": "#774f00"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "container-max": "1280px",
+            "md": "24px",
+            "lg": "48px",
+            "xs": "4px",
+            "base": "8px",
+            "sm": "12px",
+            "gutter": "24px",
+            "xl": "80px"
+          },
+          "fontFamily": {
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "label-md": ["Be Vietnam Pro"],
+            "display-lg": ["Plus Jakarta Sans"],
+            "body-lg": ["Be Vietnam Pro"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Be Vietnam Pro"],
+            "headline-md": ["Plus Jakarta Sans"]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      vertical-align: middle;
+    }
+    .shadow-soft {
+      box-shadow: 0 12px 24px -6px rgba(75, 49, 41, 0.08);
+    }
+    .shadow-floating {
+      box-shadow: 0 24px 48px -12px rgba(75, 49, 41, 0.12);
+    }
+    .gelato-gradient {
+      background: linear-gradient(15deg, #087c7f 0%, #00a5aa 100%);
+    }
+    .crema-bg {
+      background-color: #fff8ec;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Shared Component: TopAppBar -->
+<div class="relative flex h-auto w-full flex-col bg-[#f8fcfc] group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-40 flex flex-1 justify-center py-5 border-b border-surface-container">
+<div class="layout-content-container flex flex-col max-w-[1280px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap px-4 py-3">
+<div class="flex items-center gap-4 text-[#0d1b1c]">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+
+</svg>
+</div>
+<img src="logo colores Casa Gelato cafe.jpg" alt="Logo de Casa Gelato" width="250" height="auto" style="margin-left: -100px ;">
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#0d1b1c] text-lg font-semibold hover:text-primary transition-colors" href="#servicios">Servicios</a>
+<a class="text-[#0d1b1c] text-lg font-semibold hover:text-primary transition-colors" href="#proceso">Proceso</a>
+<a class="text-[#0d1b1c] text-lg font-semibold hover:text-primary transition-colors" href="#precios">Combos</a>
+<a class="text-[#0d1b1c] text-lg font-semibold hover:text-primary transition-colors" href="#contacto">Contacto</a>
+</div>
+<a class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-xl h-10 px-6 bg-primary text-on-primary text-sm font-bold shadow-soft hover:scale-105 transition-transform" href="https://wa.me/573150553292">
+<span>WhatsApp</span>
+</a>
+</div>
+</header>
+</div>
+</div>
+</div>
+</div>
+<!-- Hero Section -->
+<section class="relative overflow-hidden bg-background py-16 lg:py-24">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-2 rounded-full bg-secondary-container px-4 py-1.5 text-secondary font-bold text-sm mb-8 shadow-sm">
+<span class="material-symbols-outlined text-sm" data-icon="stars">stars</span>
+            Maquila artesanal para negocios
+          </div>
+<h1 class="text-on-background font-display-lg text-4xl lg:text-5xl leading-tight mb-6" style="text-align: left; font-family: 'Merriweather', cursive; font-weight: 500;">
+  Sin conservantes, <span class="text-primary">sin improvisación, sin complicaciones.</span> Más de 12 años produciendo para quienes exigen lo mejor.
+</h1>
+<p class="text-on-surface-variant font-body-lg mb-12" style="text-align: justify;">
+            Con más de 12 años de experiencia en el arte del gelato, ofrecemos soluciones personalizadas para restaurantes, cafés y emprendedores. 
+            Crea tu propia marca con nuestro gelato artesanal y paletas frescas.  Sin complicaciones, solo calidad!
+          </p>
+<div class="flex flex-wrap gap-4 mb-12">
+<a class="bg-primary gelato-gradient text-on-primary font-bold px-8 py-4 rounded-xl shadow-floating hover:scale-105 transition-transform" href="https://wa.me/573150553292">
+              Cotizar por WhatsApp
+            </a>
+<a class="bg-surface-container text-on-surface font-bold px-8 py-4 rounded-xl hover:bg-surface-container-high transition-colors" href="#precios">
+              Ver combos
+            </a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-6 pt-8 border-t border-outline-variant">
+<div>
+<div class="text-primary font-bold text-2xl">+12 años</div>
+<div class="text-on-surface-variant text-sm">Experiencia artesanal</div>
+</div>
+<div>
+<div class="text-primary font-bold text-2xl">3-5 días</div>
+<div class="text-on-surface-variant text-sm">Producción ágil</div>
+</div>
+<div>
+<div class="text-primary font-bold text-2xl">Sabores y Empaques Personalizados</div>
+<div class="text-on-surface-variant text-sm"></div>
+</div>
+</div>
+</div>
+<div class="relative flex justify-center items-center">
+<div class="absolute w-full h-full bg-primary-fixed opacity-20 blur-3xl rounded-full"></div>
+<img alt="Paletas artesanales" class="relative rounded-xl shadow-2xl w-full max-w-md aspect-[3/4] object-cover border-8 border-surface-container-lowest" data-alt="A professional close-up shot of a vibrant assortment of artisanal fruit popsicles arranged on a rustic marble surface. The lighting is warm and natural, suggesting a tropical Cali afternoon. The popsicles feature visible pieces of real fruit like strawberry and kiwi, highlighting the handmade texture. The background is soft-focus, with hints of turquoise and cream tones that align with the brand identity." src="_MG_8218.JPG"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Servicios Section -->
+<section class="py-20 crema-bg" id="servicios">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 44px;">Nuestros Servicios</h2>
+<p class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; mx-auto">Soluciones integrales para que te enfoques en vender mientras nosotros fabricamos con calidad premium.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Maquila -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-soft border border-surface-container hover:shadow-floating transition-shadow">
+<div class="w-14 h-14 bg-primary-fixed flex items-center justify-center rounded-xl text-primary mb-6">
+<span class="material-symbols-outlined" data-icon="factory">factory</span>
+</div>
+<h3 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 20px">Producción de Paletas y Gelato Premium</h3>
+<p class="text-on-surface-variant mb-6">Creamos paletas y gelato artesanal bajo pedido, garantizando productos frescos, deliciosos y de calidad superior, ideales para satisfacer las necesidades de tu negocio.</p>
+<ul class="space-y-3 text-sm font-semibold text-on-surface">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg" data-icon="check_circle">check_circle</span> Producción bajo demanda: Personaliza la cantidad según tus necesidades</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg" data-icon="check_circle">check_circle</span> Sabores artesanales exclusivos: Ofrecemos sabores clásicos y únicos que encantarán a tus clientes</li>
+</ul>
+</div>
+<!-- Marca Blanca -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-soft border border-surface-container hover:shadow-floating transition-shadow">
+<div class="w-14 h-14 bg-secondary-container flex items-center justify-center rounded-xl text-secondary mb-6">
+<span class="material-symbols-outlined" data-icon="label">label</span>
+</div>
+<h3 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 20px">Tu Marca, Nuestro Gelato</h3>
+<p class="text-on-surface-variant mb-6">Ofrecemos el servicio de marca blanca para helados, permitiéndote vender gelato artesanal con tu propia etiqueta. Contamos con la flexibilidad para ajustarnos a las necesidades de tu marca y ofrecerte lo mejor</p>
+<ul class="space-y-3 text-sm font-semibold text-on-surface">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-lg" data-icon="check_circle">check_circle</span> Personalización total: Desde el diseño de la etiqueta hasta la receta del gelato</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary text-lg" data-icon="check_circle">check_circle</span> Sin inversión en maquinaria: Nos encargamos de la producción, tú solo distribuyes</li>
+</ul>
+</div>
+<!-- Eventos -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-soft border border-surface-container hover:shadow-floating transition-shadow">
+<div class="w-14 h-14 bg-tertiary-fixed flex items-center justify-center rounded-xl text-tertiary mb-6">
+<span class="material-symbols-outlined" data-icon="celebration">celebration</span>
+</div>
+<h3 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 20px">Soluciones para Eventos y Activaciones de Marca</h3>
+<p class="text-on-surface-variant mb-6">Transforma cualquier celebración en una experiencia memorable con nuestro gelato artesanal. Ideal para eventos corporativos, fiestas y activaciones de marca. Ofrecemos atención personalizada para hacer de tu evento un éxito rotundo</p>
+<ul class="space-y-3 text-sm font-semibold text-on-surface">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-tertiary text-lg" data-icon="check_circle">check_circle</span> Logística de frío incluida: Nos aseguramos de que tu gelato se mantenga perfecto</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-tertiary text-lg" data-icon="check_circle">check_circle</span> Personalización según volumen: Ofrecemos opciones para adaptarnos a eventos grandes o pequeños</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Proceso Section -->
+<section class="py-20 bg-background" id="proceso">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-start">
+<div>
+<h2 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; mx-auto style="text-align: justify;">De la idea al congelador, sin complicaciones operativas.</h2>
+<p class="text-on-surface-variant mb-8 text-lg">Confiabilidad: Trabajamos con procesos optimizados para asegurar que cada producto mantenga su calidad desde la elaboración hasta la entrega.</p>
+<div class="bg-secondary-container p-6 rounded-xl border border-outline-variant">
+<div class="flex items-center gap-3 text-on-secondary-container font-bold mb-2">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span>
+              Cobertura
+            </div>
+<p class="text-on-secondary-container text-sm">Cobertura total: Realizamos entregas en Cali y alrededores (Jamundí, Palmira, Yumbo). <br>
+Entregas a medida: Coordinamos la entrega de acuerdo al volumen de tu pedido, para que siempre recibas lo que necesitas, justo cuando lo necesitas.</p>
+</div>
+</div>
+<div class="space-y-6">
+<div class="flex gap-6 p-6 rounded-xl bg-surface-container border border-surface-container-high shadow-sm">
+<span class="flex-shrink-0 w-12 h-12 bg-primary text-on-primary rounded-full flex items-center justify-center font-bold text-xl">1</span>
+<div>
+<h4 class="font-bold text-on-surface mb-1">Cuéntanos qué necesitas</h4>
+<p class="text-on-surface-variant text-sm">Nos ajustamos a tus requerimientos: cantidad, sabores y personalización, para crear el producto perfecto para tu negocio.</p>
+</div>
+</div>
+<div class="flex gap-6 p-6 rounded-xl bg-surface-container border border-surface-container-high shadow-sm">
+<span class="flex-shrink-0 w-12 h-12 bg-primary text-on-primary rounded-full flex items-center justify-center font-bold text-xl">2</span>
+<div>
+<h4 class="font-bold text-on-surface mb-1">Definimos tu pedido</h4>
+<p class="text-on-surface-variant text-sm">Calculamos las unidades necesarias y optimizamos la capacidad de la maquinaria, adaptándonos a tus necesidades logísticas.</p>
+</div>
+</div>
+<div class="flex gap-6 p-6 rounded-xl bg-surface-container border border-surface-container-high shadow-sm">
+<span class="flex-shrink-0 w-12 h-12 bg-primary text-on-primary rounded-full flex items-center justify-center font-bold text-xl">3</span>
+<div>
+<h4 class="font-bold text-on-surface mb-1">Confirma tu pedido</h4>
+<p class="text-on-surface-variant text-sm">Reserva tu producción con el pago del anticipo. El saldo se abona al momento de la entrega.</p>
+</div>
+</div>
+<div class="flex gap-6 p-6 rounded-xl bg-surface-container border border-surface-container-high shadow-sm">
+<span class="flex-shrink-0 w-12 h-12 bg-primary text-on-primary rounded-full flex items-center justify-center font-bold text-xl">4</span>
+<div>
+<h4 class="font-bold text-on-surface mb-1">Producción y entrega garantizadas</h4>
+<p class="text-on-surface-variant text-sm">Proceso de producción eficiente, entregamos en 3-5 días hábiles y garantizamos calidad en cada lote.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sabores Section -->
+<section class="py-20 crema-bg overflow-hidden">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="text-center mb-12">
+<h2 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; mx-auto">Explora nuestros sabores</h2>
+<p class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; mx-auto">Nuestra exquisita variedad de sabores que combinan lo mejor de la fruta fresca, la cremosidad láctea, la suavidad del yogurt y el toque único de los frutos secos. Cada bocado está diseñado para deleitar tu paladar y ofrecer una experiencia inigualable. Disfruta de una fusión de sabores premium pensados para cautivar a tu cliente.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-3">
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Nutella</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Lulada</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Oreo</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Mango Biche</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Snicker</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Stracciatella</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Limonada de coco</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Milo</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Frutos Rojos</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Piña Hierbabuena</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Pasión Tropical</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Chesecake Agraz</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Pistacho</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Macadamia</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Yogurt Frutos Rojos</span>
+<span class="px-6 py-2 bg-surface-container-lowest text-primary font-bold rounded-full border border-primary shadow-sm hover:scale-110 transition-transform cursor-default">Y muchos mas...</span>
+</div>
+</div>
+</section>
+<!-- Precios Section -->
+<section class="py-20 bg-background" id="precios">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; mx-auto">Tablas de Precios y Combos</h2>
+<p class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; mx-auto">Precios Pedidos por volumen y activaciones comerciales.</p>
+</div>
+<div class="grid lg:grid-cols-2 gap-12">
+<!-- Paleta por volumen -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-soft border border-surface-container">
+<div class="bg-primary p-6 text-on-primary">
+<h3 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; color: #f0ebea; text-align: center;">Paleta artesanal por volumen</h3>
+<p class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 14px; color: #f0ebea">Precio unitario según cantidad</p>
+</div>
+<div class="p-6">
+<table class="w-full text-left">
+<thead class="border-b border-outline-variant">
+<tr>
+<th class="py-4 font-bold text-on-surface">Unidades</th>
+<th class="py-4 font-bold text-on-surface text-right">Precio unidad</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<tr><td class="py-4 text-on-surface-variant font-semibold">1 a 15</td><td class="py-4 text-primary font-bold text-right">$5.000</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">16 a 27</td><td class="py-4 text-primary font-bold text-right">$4.400</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">28 a 55</td><td class="py-4 text-primary font-bold text-right">$4.200</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">56 a 99</td><td class="py-4 text-primary font-bold text-right">$4.100</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">100 o más</td><td class="py-4 text-primary font-bold text-right">$4.000</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Combos con nevera -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-soft border border-surface-container">
+<div class="bg-secondary p-6 text-on-secondary">
+<h3 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; color: #f0ebea; text-align: center;">Combos con nevera incluida</h3>
+<p class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 14px; color: #f0ebea">Solución llave en mano para eventos</p>
+</div>
+<div class="p-6">
+<table class="w-full text-left">
+<thead class="border-b border-outline-variant">
+<tr>
+<th class="py-4 font-bold text-on-surface">Capacidad</th>
+<th class="py-4 font-bold text-on-surface">Paletas</th>
+<th class="py-4 font-bold text-on-surface text-right">Total</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<tr><td class="py-4 text-on-surface-variant font-semibold">1 CC</td><td class="py-4 text-on-surface">6</td><td class="py-4 text-secondary font-bold text-right">$33.000</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">3 CC</td><td class="py-4 text-on-surface">16</td><td class="py-4 text-secondary font-bold text-right">$78.000</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">5 CC</td><td class="py-4 text-on-surface">28</td><td class="py-4 text-secondary font-bold text-right">$130.000</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">10 CC</td><td class="py-4 text-on-surface">56</td><td class="py-4 text-secondary font-bold text-right">$249.000</td></tr>
+<tr><td class="py-4 text-on-surface-variant font-semibold">15 CC</td><td class="py-4 text-on-surface">85</td><td class="py-4 text-secondary font-bold text-right">$365.000</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Galería Section -->
+<section class="py-20 crema-bg">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="text-center mb-16">
+<h3 class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; color: #0c0c0c; text-align: center;">Nuestras Creaciones</h2>
+<p class="font-headline-lg text-on-surface mb-8" style="font-family: 'Merriweather', sans-serif; font-size: 22px; color: #0c0c0c; text-align: center;">Calidad artesanal que se nota a simple vista.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<img class="w-full aspect-square object-cover rounded-xl shadow-soft" data-alt="" src="Snickers.jpg"/>
+<img class="w-full aspect-square object-cover rounded-xl shadow-soft" data-alt="" src="Amarena.jpg""/>
+<img class="w-full aspect-square object-cover rounded-xl shadow-soft" data-alt="" src="Stracciatella.jpg"/>
+<img class="w-full aspect-square object-cover rounded-xl shadow-soft" data-alt="" src="IMG-20160913-WA0002.jpg"/>
+</div>
+</div>
+</section>
+<!-- Contacto/CTA Section -->
+<section class="py-20 bg-background" id="contacto">
+<div class="mx-auto max-w-5xl px-6 lg:px-8">
+<div class="bg-primary-container rounded-xl p-8 lg:p-12 shadow-floating text-on-primary-container relative overflow-hidden">
+<div class="grid lg:grid-cols-2 gap-12 items-center relative z-10">
+<div>
+<h2 class="font-display-lg text-3xl lg:text-4xl text-on-primary-container mb-6" style="font-family: 'Merriweather', serif;">¿Listo para cotizar tu maquila?</h2>
+<p class="font-body-lg mb-8 opacity-90 text-on-primary-container" style="font-family: 'Merriweather', serif;">Escríbenos por WhatsApp con la cantidad, fecha y sabores. Te responderemos con una propuesta personalizada en menos de 24 horas.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<span class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container" data-icon="phone">phone</span>
+</span>
+<span class="font-bold" style="font-family: 'Merriweather', serif;">315 055 3292</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container" data-icon="payments">mail</span>
+</span>
+<span class="font-bold" style="font-family: 'Merriweather', serif;">comercial@casagelatocali.com.co</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-lg">
+<form class="space-y-4">
+<div>
+<label class="block text-sm font-bold text-on-surface mb-2">Nombre o Empresa</label>
+<input class="w-full rounded-xl border-outline-variant focus:border-primary focus:ring-primary" placeholder="Ej. Café Central" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-bold text-on-surface mb-2">Interés</label>
+<select class="w-full rounded-xl border-outline-variant focus:border-primary focus:ring-primary">
+<option>Quiero Maquila</option>
+<option>Quiero Marca Blanca</option>
+<option>Evento Corporativo</option>
+<option>Combos con Nevera</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-bold text-on-surface mb-2">Detalles del pedido</label>
+<textarea class="w-full rounded-xl border-outline-variant focus:border-primary focus:ring-primary" placeholder="Cantidad, fecha y sabores..." rows="3"></textarea>
+</div>
+<button class="w-full bg-tertiary-container text-on-tertiary-container font-bold py-4 rounded-xl shadow-md hover:scale-[1.02] transition-transform" type="button">
+                Enviar solicitud por WhatsApp
+              </button>
+</form>
+</div>
+</div>
+<!-- Decorative blobs -->
+<div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 bg-secondary/10 rounded-full blur-3xl"></div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-highest py-12">
+<div class="mx-auto max-w-7xl px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 pb-8 border-b border-outline-variant">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48">
+</svg>
+</div>
+<a href="/" class="flex items-center space-x-2">
+    <!-- Aquí se reemplaza el texto con la imagen -->
+    <img src="logo colores Casa Gelato cafe2.png" alt="Casa Gelato" class="h-24 w-auto" />
+</div>
+<p class="text-on-surface-variant text-sm text-center">Producción bajo estrictos procesos de fabricación y conservación.</p>
+<div class="flex gap-4">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-semibold text-sm" href="#">Instagram</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-semibold text-sm" href="#">Facebook</a>
+</div>
+</div>
+<div class="pt-8 text-center text-xs text-outline font-semibold">
+        © 2026 Casa Gelato Cali. Heladería Artesanal · Cali, Colombia.
+      </div>
+</div>
+</footer>
+<!-- Floating WhatsApp Button -->
+<a class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-floating hover:scale-110 transition-transform flex items-center gap-2 group" href="https://wa.me/573150553292">
+<svg class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path>
+</svg>
+<span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 font-bold whitespace-nowrap">Habla con nosotros</span>
+</a>
+</body></html>
